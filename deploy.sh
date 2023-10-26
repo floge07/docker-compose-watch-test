@@ -1,0 +1,1 @@
+docker compose -p test-project-watch watch app1

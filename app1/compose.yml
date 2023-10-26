@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  template:
+    build:
+      context: .
+    develop:
+      watch:
+        - path: ./src
+          target: /app
+          action: sync
+      
